@@ -107,9 +107,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="credentials.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <Content Include="credentials.json" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
